@@ -25,21 +25,21 @@ Practicar el paso correcto de diferentes tipos de datos (string, number, array) 
 
 ## Desafío 2: Componente de Clase (Acceso this.props)
 
-Objetivo: Reforzar el acceso a las props dentro del método render() de un componente de clase.
+### Objetivo: Reforzar el acceso a las props dentro del método render() de un componente de clase.
 
-Crea un componente de Clase de React llamado AlertaClase.
+1. Crea un componente de Clase de React llamado AlertaClase.
 
 Este componente debe recibir dos props:
 
-mensaje (string)
+- [ ] mensaje (string)
 
-esCritica (booleano)
+- [ ] esCritica (booleano)
 
-Dentro del método render() de AlertaClase, accede a las props obligatoriamente usando la sintaxis this.props.propName.
+2. Dentro del método render() de AlertaClase, accede a las props obligatoriamente usando la sintaxis this.props.propName.
 
-Renderiza el mensaje. Usa la prop esCritica para aplicar un estilo de fondo rojo (crítico) o verde (normal) al contenedor del mensaje.
+3. Renderiza el mensaje. Usa la prop esCritica para aplicar un estilo de fondo rojo (crítico) o verde (normal) al contenedor del mensaje.
 
-Desafío 3: Comunicación Hijo a Padre (Función Callback)
+## Desafío 3: Comunicación Hijo a Padre (Función Callback)
 
 Objetivo: Implementar la comunicación de componente hijo a padre pasando una función como prop, respetando el flujo unidireccional.
 
@@ -61,7 +61,7 @@ Al hacer click en el botón, debe ejecutar la función onAumentar que recibió p
 
 Muestra el valor actual del contador en ContadorPadre.
 
-Desafío 4: Componente Contenedor (props.children)
+## Desafío 4: Componente Contenedor (props.children)
 
 Objetivo: Utilizar la prop especial props.children para crear componentes envolventes (wrappers).
 
@@ -73,7 +73,7 @@ La clave del ejercicio: Tarjeta no debe aceptar props explícitas, sino que debe
 
 En tu componente principal, usa Tarjeta para envolver diferentes elementos (por ejemplo, un encabezado <h1>, un párrafo <p>, o incluso otro componente).
 
-Desafío 5: Valores Predeterminados (Desestructuración ES6)
+## Desafío 5: Valores Predeterminados (Desestructuración ES6)
 
 Objetivo: Aplicar la desestructuración de ES6 para establecer valores por defecto para props opcionales.
 
