@@ -33,10 +33,12 @@ export function Semaforo(){
 
     return(
         <>
-        <hr />
-        <p style={{color: estadoLuz.color}}>{estadoLuz.mensaje}</p>
-        <button type="submit" onClick={changeColor}>el color</button>
-        <hr />
+        <div style={{textAlign: "center", marginTop: "20px", backgroundColor: "#292727ff", padding: "20px", borderRadius: "10px"}}>
+            <hr />
+            <p style={{color: estadoLuz.color}}>{estadoLuz.mensaje}</p>
+            <button type="submit" onClick={changeColor}>el color</button>
+            <hr />
+        </div>
         </>
     )
 }
