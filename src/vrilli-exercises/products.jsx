@@ -23,3 +23,5 @@ export function Products() {
         <button type="submit"></button>
     </>)
 }
+
+// Esta muy bien, IMPLEMENTAR todo el ejercicio completo, quedo atenta para revisarlo nuevamente.
