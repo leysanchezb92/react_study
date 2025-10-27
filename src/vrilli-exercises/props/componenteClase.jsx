@@ -4,6 +4,8 @@ import { Component } from "react";
 class ComponenteClase extends Component {
 
     render(){
+        // Esto se podria mejora.Podrias pasar directamente como props en la funcion y darle valores predeterminados.
+        // ejemplo: function Alerta({ mensaje = "Esta es una alerta.", esCritica = false }), esta es la manera en que se utiliza en React Moderno.
         const {mensaje, esCritica} = this.props;
 
         return(
