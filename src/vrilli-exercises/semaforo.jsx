@@ -1,5 +1,7 @@
 // Crear un componente que simule un semáforo que cambia de color y mensaje al presionar un botón. Este ejercicio se centra en cómo actualizar un objeto en el estado de forma inmutable.
 
+
+//Esta muy bien, podrias hacerle el frontend y desplegarlo en vercel para que te sirve de muestra en tu portafolio.
 import {useState} from "react"
 
 export function Semaforo(){

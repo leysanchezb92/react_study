@@ -1,5 +1,7 @@
 // Dado dos números enteros obtener su Suma, Resta, multiplicación y Divion.
 
+
+//Podemos realizar algunas mejoras de sintaxis del código pero on respecto a el objetivo del ejercicio se entendio y se cun¿mplio con lo requerido.
 import { useState } from "react"
 
 export function Calculator() {

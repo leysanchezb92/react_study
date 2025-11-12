@@ -1,3 +1,5 @@
+// FELICIDADES QUE TE QUEDO EXCELENTE :D 
+
 export function TarjetaPerfil(props){
     return(<>
         <div className="bg-white rounded-xl shadow-2x1 transform hover:scale-[1.02] transition duration-300"> 

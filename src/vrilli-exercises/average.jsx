@@ -12,7 +12,8 @@ export function Average() {
         const addTotal= numbers.reduce((acum,num)=>{
             return acum + num
         })
-        const averageTotal = addTotal + average.length
+        // Para Calcular correctamente el promedio hay que dividir (dividiendo, no sumando la longitud)
+        const averageTotal = addTotal / average.length
         setResult(`el promedio de los datos es ${averageTotal}`)
     };
 
